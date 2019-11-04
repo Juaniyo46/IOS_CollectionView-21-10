@@ -62,7 +62,11 @@
     
     NSArray *urls = [NSArray arrayWithObjects:@"https://www.drive.google.com",@"https://www.calendar.google.com", @"https://www.classroom.google.com", @"https://www.contacts.google.com", @"https://www.docs.google.com/document", @"https://www.docs.google.com/forms", @"https://www.mail.google.com", @"https://www.hangouts.google.com", @"https://www.sites.google.com", @"https://plus.google.com/discover", @"https://groups.google.com", @"https://chat.google.com/welcome", @"https://docs.google.com", @"https://keep.google.com", @"https://meet.google.com", @"https://docs.google.com/presentation", nil];
     
-    cell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@" forIndexPath:<#(nonnull NSIndexPath *)#>]
+    cell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"prototipeCell" forIndexPath:indexPath];
+    
+
+    
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:urls[indexPath.row]] options:@{} completionHandler:nil];
     
 }
 
