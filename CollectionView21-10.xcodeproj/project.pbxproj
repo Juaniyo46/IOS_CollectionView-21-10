@@ -17,6 +17,7 @@
 		28490E26235DEC830096BACF /* CollectionView21_10Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28490E25235DEC830096BACF /* CollectionView21_10Tests.m */; };
 		28490E31235DEC830096BACF /* CollectionView21_10UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28490E30235DEC830096BACF /* CollectionView21_10UITests.m */; };
 		28490E40235DFA6C0096BACF /* cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28490E3F235DFA6C0096BACF /* cell.m */; };
+		285E1C45238D54C600FBCF53 /* customHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 285E1C44238D54C600FBCF53 /* customHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		28490E32235DEC830096BACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28490E3E235DFA600096BACF /* cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cell.h; sourceTree = "<group>"; };
 		28490E3F235DFA6C0096BACF /* cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cell.m; sourceTree = "<group>"; };
+		285E1C43238D54AE00FBCF53 /* customHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = customHeader.h; sourceTree = "<group>"; };
+		285E1C44238D54C600FBCF53 /* customHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customHeader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				28490E1B235DEC830096BACF /* main.m */,
 				28490E3E235DFA600096BACF /* cell.h */,
 				28490E3F235DFA6C0096BACF /* cell.m */,
+				285E1C43238D54AE00FBCF53 /* customHeader.h */,
+				285E1C44238D54C600FBCF53 /* customHeader.m */,
 			);
 			path = "CollectionView21-10";
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 				28490E40235DFA6C0096BACF /* cell.m in Sources */,
 				28490E11235DEC810096BACF /* ViewController.m in Sources */,
 				28490E0B235DEC810096BACF /* AppDelegate.m in Sources */,
+				285E1C45238D54C600FBCF53 /* customHeader.m in Sources */,
 				28490E1C235DEC830096BACF /* main.m in Sources */,
 				28490E0E235DEC810096BACF /* SceneDelegate.m in Sources */,
 			);

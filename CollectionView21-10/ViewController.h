@@ -8,7 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UICollectionViewController<UICollectionViewDelegate, UICollectionViewDataSource>
+@interface ViewController : UICollectionViewController<UICollectionViewDelegate, UICollectionViewDataSource>{
+    
+    NSMutableArray *nuevosNombres;
+    NSMutableArray *nuevosUrl;
+    NSArray *names;
+    NSArray *urls;
+}
 
 
 
