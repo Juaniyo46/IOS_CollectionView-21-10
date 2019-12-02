@@ -49,7 +49,7 @@
     UIAlertController * alert = [UIAlertController alertControllerWithTitle:@"Añadir elemento" message:@"" preferredStyle:UIAlertControllerStyleAlert];
         
     UIAlertAction *ok = [UIAlertAction actionWithTitle:@"Insertar" style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {
-        //añadir elemento al array
+        //añadir elemento al array	
         
         //Capturamos el texto introducido
         NSString *nombre = alert.textFields[0].text;
@@ -105,9 +105,9 @@
                                                         withReuseIdentifier:@"CustomTitle"
                                                       forIndexPath:indexPath];
         if(indexPath.section == 0){
-            header.titleLabel.text = @"Título de la sección 1";
+            header.titleLabel.text = @"Google";
         }else{
-            header.titleLabel.text = @"Título de la sección 2";
+            header.titleLabel.text = @"Personalizado";
         }
     }
  
@@ -131,7 +131,7 @@
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(nonnull UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(nonnull NSIndexPath *)indexPath{
     
-    return CGSizeMake(180, 231);
+    return CGSizeMake(200, 231);
 }
 
 
